@@ -1,0 +1,4 @@
+node_modules
+
+# ignore example folder during initial development
+example
