@@ -7,13 +7,15 @@
     "import": "./src/index.js"
   },
   "scripts": {
-    "test": "uvu src"
+    "test": "uvu src",
+    "test:watch": "nodemon --watch src --exec 'npm run test'"
   },
   "types": "./types/index.d.ts",
   "type": "module",
   "author": "Patrik Johnson <patrik.johnson@iki.fi>",
   "devDependencies": {
     "dts-buddy": "^0.4.4",
+    "nodemon": "^3.1.0",
     "uvu": "^0.5.6"
   }
 }
